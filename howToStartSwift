@@ -1,0 +1,20 @@
+- update && upgrade
+- sudo apt install clang libicu-dev
+- wget https://swift.org/builds/swift-5.5-release/ubuntu2004/swift-5.5-RELEASE/swift-5.5-RELEASE-ubuntu20.04.tar.gz
+  last version swift off page
+
+- tar xzf swift-5.5-RELEASE-ubuntu20.04.tar.gz
+  sudo mv swift-5.5-RELEASE-ubuntu20.04 /usr/local/swift
+
+
+- nano ~/.bashrc
+  .bashrc
+  export PATH=/usr/local/swift/usr/bin:$PATH      //add line
+  source ~/.bashrc
+
+- sudo snap install --classic code
+
+- swift package init --type executable
+
+- swift build
+  .build/debug/MyFirstSwiftProject
