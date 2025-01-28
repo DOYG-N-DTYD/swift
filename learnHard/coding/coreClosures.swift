@@ -71,7 +71,7 @@ print(result2)    // -2
 let x = 10
 let y = 12
  
-let result1 = operation(x, y, {$0 + $1})
+let result1 = operation(x, y, {$0 + $1}) // $0 первый параметр переданный в функцию $2 второй параметр !
 print(result1)    // 22
  
 let result2 = operation(x, y, {$0 - $1})
